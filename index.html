@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATELIER BARBER — Мужской барбершоп премиум-класса</title>
+  <meta name="description" content="Мужские стрижки, бритьё опасной бритвой, уход за бородой. Мастерская в центре города. Запись онлайн." />
+  <meta name="theme-color" content="#0B0908" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ATELIER BARBER — Мужской барбершоп премиум-класса" />
+  <meta property="og:description" content="Стрижки, бритьё, борода. Запись онлайн. Работаем с 10:00 до 22:00." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "ATELIER BARBER",
+    "image": "",
+    "priceRange": "₽₽₽",
+    "telephone": "+7 (999) 000-00-00",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Мастеров, 12",
+      "addressLocality": "Москва",
+      "addressCountry": "RU"
+    },
+    "openingHours": "Mo-Su 10:00-22:00"
+  }
+  </script>
+</head>
+<body>
+  <!-- ══ BACKGROUND LAYERS ══ -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- ══ HEADER ══ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="ATELIER BARBER — на главную">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">
+          <span class="brand-name">ATELIER</span>
+          <span class="brand-sub">BARBER</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Меню" aria-controls="mainNav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#masters">Мастера</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="btn btn-cta nav-cta" href="#booking">Записаться</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ══ HERO ══ -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <span class="eyebrow" data-aos>Мужской барбершоп · Москва</span>
+        <h1 data-aos>
+          Искусство<br/>
+          <em>мужского ухода</em>
+        </h1>
+        <p class="hero-lede" data-aos>
+          Стрижки, бритьё опасной бритвой, моделирование бороды.
+          Десять лет ремесла, никаких очередей, горячий виски в подарок.
+        </p>
+        <div class="hero-ctas" data-aos>
+          <a class="btn btn-cta" href="#booking">Записаться онлайн</a>
+          <a class="btn btn-ghost" href="tel:+79990000000">
+            <span class="btn-ico">☏</span> +7 (999) 000‑00‑00
+          </a>
+        </div>
+        <div class="hero-meta" data-aos>
+          <div><strong>10:00 — 22:00</strong><span>каждый день</span></div>
+          <div><strong>5 мастеров</strong><span>с опытом 6+ лет</span></div>
+          <div><strong>1280+ клиентов</strong><span>возвращаются к нам</span></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#services" aria-label="Листать вниз">
+        <span>Листай вниз</span>
+        <svg width="14" height="22" viewBox="0 0 14 22" fill="none" aria-hidden="true">
+          <rect x="1" y="1" width="12" height="20" rx="6" stroke="currentColor" stroke-width="1.5"/>
+          <circle class="scroll-hint-dot" cx="7" cy="7" r="1.5" fill="currentColor"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- ══ SERVICES ══ -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-head" data-aos>
+          <span class="eyebrow">Услуги</span>
+          <h2>Прайс мастерской</h2>
+          <p class="section-lede">Цены фиксированы. Никаких «уточнений на месте».</p>
+        </header>
+
+        <ul class="services-list">
+          <li class="service" data-aos>
+            <div class="service-top">
+              <h3>Мужская стрижка</h3>
+              <span class="service-dots" aria-hidden="true"></span>
+              <span class="service-price">2 500&nbsp;₽</span>
+            </div>
+            <p>Классика или актуальные силуэты. Консультация, мытьё, укладка, горячее полотенце на прощание.</p>
+            <span class="service-meta">60 мин · барбер на выбор</span>
+          </li>
+          <li class="service" data-aos>
+            <div class="service-top">
+              <h3>Стрижка машинкой</h3>
+              <span class="service-dots" aria-hidden="true"></span>
+              <span class="service-price">1 500&nbsp;₽</span>
+            </div>
+            <p>Одна длина или градиент. Чисто, быстро, без лишних слов.</p>
+            <span class="service-meta">30 мин · любой мастер</span>
+          </li>
+          <li class="service" data-aos>
+            <div class="service-top">
+              <h3>Королевское бритьё</h3>
+              <span class="service-dots" aria-hidden="true"></span>
+              <span class="service-price">2 200&nbsp;₽</span>
+            </div>
+            <p>Опасная бритва, распаривание, три масла, компресс. Ритуал на 45 минут, ощущается часом.</p>
+            <span class="service-meta">45 мин · мастера L2+</span>
+          </li>
+          <li class="service" data-aos>
+            <div class="service-top">
+              <h3>Моделирование бороды</h3>
+              <span class="service-dots" aria-hidden="true"></span>
+              <span class="service-price">1 800&nbsp;₽</span>
+            </div>
+            <p>Контур, длина, подстрижка. Уход маслом и воском. Советы домой.</p>
+            <span class="service-meta">40 мин · мастера L2+</span>
+          </li>
+          <li class="service" data-aos>
+            <div class="service-top">
+              <h3>Стрижка + борода</h3>
+              <span class="service-dots" aria-hidden="true"></span>
+              <span class="service-price">3 800&nbsp;₽</span>
+            </div>
+            <p>Полный апдейт за один визит. Виски в подарок.</p>
+            <span class="service-meta">90 мин · мастера L2+</span>
+          </li>
+          <li class="service" data-aos>
+            <div class="service-top">
+              <h3>Камуфляж седины</h3>
+              <span class="service-dots" aria-hidden="true"></span>
+              <span class="service-price">1 200&nbsp;₽</span>
+            </div>
+            <p>Тонирование, которое смотрится естественно. Держится 3–4 недели.</p>
+            <span class="service-meta">25 мин · к любой стрижке</span>
+          </li>
+        </ul>
+
+        <p class="services-note" data-aos>
+          * Первая стрижка — <strong>−20%</strong> по промокоду <code>FIRST</code>. Абонементы от 3 визитов — <strong>−15%</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ══ MASTERS ══ -->
+    <section class="section section-dark" id="masters">
+      <div class="container">
+        <header class="section-head" data-aos>
+          <span class="eyebrow">Команда</span>
+          <h2>Мастера</h2>
+          <p class="section-lede">Каждый из них — со своей подписью. Выбирай того, чей стиль ближе.</p>
+        </header>
+
+        <div class="masters-grid">
+          <article class="master" data-aos>
+            <div class="master-photo">
+              <img src="https://images.unsplash.com/photo-1610276198568-eb6d0ff53e48?w=700&q=80&auto=format&fit=crop" alt="Мастер Артём" loading="lazy" />
+            </div>
+            <div class="master-body">
+              <span class="master-rank">L3 · Старший мастер</span>
+              <h3>Артём</h3>
+              <p>9 лет в ремесле. Классические силуэты, андеркаты, работа с жёсткой волной.</p>
+              <span class="master-signature">Подпись: «Textured Crop»</span>
+            </div>
+          </article>
+          <article class="master" data-aos>
+            <div class="master-photo">
+              <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=700&q=80&auto=format&fit=crop" alt="Мастер Дмитрий" loading="lazy" />
+            </div>
+            <div class="master-body">
+              <span class="master-rank">L3 · Старший мастер</span>
+              <h3>Дмитрий</h3>
+              <p>Бороды и опасная бритва. Турецкая школа, сертификат Istanbul Barber Academy.</p>
+              <span class="master-signature">Подпись: «Royal Shave»</span>
+            </div>
+          </article>
+          <article class="master" data-aos>
+            <div class="master-photo">
+              <img src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?w=700&q=80&auto=format&fit=crop" alt="Мастер Марк" loading="lazy" />
+            </div>
+            <div class="master-body">
+              <span class="master-rank">L2 · Мастер</span>
+              <h3>Марк</h3>
+              <p>Современные формы, fade-переходы, работа с тонкими волосами и лысинами.</p>
+              <span class="master-signature">Подпись: «Low Fade»</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ GALLERY ══ -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <header class="section-head" data-aos>
+          <span class="eyebrow">Галерея</span>
+          <h2>Работы и атмосфера</h2>
+          <p class="section-lede">Подборка последних стрижек и интерьер мастерской.</p>
+        </header>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-wide" data-aos>
+            <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=1100&q=80&auto=format&fit=crop" alt="Стрижка в процессе" loading="lazy" />
+          </figure>
+          <figure class="gallery-item" data-aos>
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=700&q=80&auto=format&fit=crop" alt="Интерьер барбершопа" loading="lazy" />
+          </figure>
+          <figure class="gallery-item" data-aos>
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=700&q=80&auto=format&fit=crop" alt="Инструменты мастера" loading="lazy" />
+          </figure>
+          <figure class="gallery-item" data-aos>
+            <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=700&q=80&auto=format&fit=crop" alt="Укладка после стрижки" loading="lazy" />
+          </figure>
+          <figure class="gallery-item gallery-tall" data-aos>
+            <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=700&q=80&auto=format&fit=crop" alt="Детали рабочего места" loading="lazy" />
+          </figure>
+          <figure class="gallery-item" data-aos>
+            <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=700&q=80&auto=format&fit=crop" alt="Бритьё опасной бритвой" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ REVIEWS ══ -->
+    <section class="section section-dark" id="reviews">
+      <div class="container">
+        <header class="section-head" data-aos>
+          <span class="eyebrow">Отзывы</span>
+          <h2>Что говорят клиенты</h2>
+          <p class="section-lede">Средняя оценка <strong>4.97</strong> на Яндекс Картах, 340+ отзывов.</p>
+        </header>
+
+        <div class="reviews" id="reviewsCarousel" data-autoplay="6000">
+          <article class="review is-active" data-aos>
+            <div class="review-stars" aria-label="5 из 5">★★★★★</div>
+            <blockquote>
+              «Хожу три года, ни разу не было мимо. Дмитрий делает бороду так, что жена перестала намекать на триммер дома.»
+            </blockquote>
+            <footer>
+              <strong>Сергей П.</strong><span> · стрижка + борода</span>
+            </footer>
+          </article>
+          <article class="review" data-aos>
+            <div class="review-stars" aria-label="5 из 5">★★★★★</div>
+            <blockquote>
+              «Зашёл случайно, остался на два часа: стрижка, бритьё, виски. Это не барбершоп, это мужской клуб. Буду возвращаться.»
+            </blockquote>
+            <footer>
+              <strong>Артём Г.</strong><span> · королевское бритьё</span>
+            </footer>
+          </article>
+          <article class="review" data-aos>
+            <div class="review-stars" aria-label="5 из 5">★★★★★</div>
+            <blockquote>
+              «Наконец-то нашёл мастера, который не спрашивает «как обычно?», а сам видит, что сделать. Низкий поклон Марку.»
+            </blockquote>
+            <footer>
+              <strong>Илья К.</strong><span> · мужская стрижка</span>
+            </footer>
+          </article>
+        </div>
+
+        <div class="reviews-dots" role="tablist" aria-label="Переключение отзывов"></div>
+      </div>
+    </section>
+
+    <!-- ══ BOOKING ══ -->
+    <section class="section" id="booking">
+      <div class="container booking-wrap">
+        <div class="booking-intro" data-aos>
+          <span class="eyebrow">Запись</span>
+          <h2>Забронируй кресло</h2>
+          <p>Оставь заявку — перезвоним за 10 минут, подтвердим и пришлём напоминание в Telegram.</p>
+          <ul class="booking-benefits">
+            <li>Мгновенное уведомление мастеру</li>
+            <li>Перенос без штрафа за 3 часа</li>
+            <li>Напоминание в Telegram за сутки</li>
+          </ul>
+        </div>
+
+        <form class="booking-form" id="bookingForm" novalidate data-aos>
+          <div class="field">
+            <label for="bf-name">Имя</label>
+            <input id="bf-name" name="name" type="text" required autocomplete="given-name" placeholder="Как к вам обращаться" />
+          </div>
+          <div class="field">
+            <label for="bf-phone">Телефон</label>
+            <input id="bf-phone" name="phone" type="tel" required autocomplete="tel" placeholder="+7 (___) ___‑__‑__" inputmode="tel" />
+          </div>
+          <div class="field">
+            <label for="bf-service">Услуга</label>
+            <select id="bf-service" name="service" required>
+              <option value="">Выберите услугу</option>
+              <option>Мужская стрижка</option>
+              <option>Стрижка машинкой</option>
+              <option>Королевское бритьё</option>
+              <option>Моделирование бороды</option>
+              <option>Стрижка + борода</option>
+              <option>Камуфляж седины</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="bf-master">Мастер</label>
+            <select id="bf-master" name="master">
+              <option value="">Любой свободный</option>
+              <option>Артём</option>
+              <option>Дмитрий</option>
+              <option>Марк</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="bf-date">Дата</label>
+            <input id="bf-date" name="date" type="date" required />
+          </div>
+          <div class="field">
+            <label for="bf-time">Время</label>
+            <input id="bf-time" name="time" type="time" required />
+          </div>
+          <div class="field field-full field-check">
+            <label>
+              <input type="checkbox" required checked />
+              <span>Согласен на обработку персональных данных</span>
+            </label>
+          </div>
+          <div class="field field-full">
+            <button class="btn btn-cta btn-submit" type="submit">
+              <span class="btn-label">Отправить заявку</span>
+              <span class="btn-spinner" aria-hidden="true"></span>
+            </button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ══ CONTACTS ══ -->
+    <section class="section section-dark" id="contacts">
+      <div class="container contacts-wrap">
+        <header class="section-head" data-aos>
+          <span class="eyebrow">Контакты</span>
+          <h2>Как нас найти</h2>
+        </header>
+
+        <div class="contacts-grid">
+          <div class="contacts-info" data-aos>
+            <dl class="contacts-dl">
+              <dt>Адрес</dt>
+              <dd>ул. Мастеров, 12, Москва</dd>
+              <dt>Часы работы</dt>
+              <dd>Ежедневно, 10:00 — 22:00</dd>
+              <dt>Телефон</dt>
+              <dd><a href="tel:+79990000000">+7 (999) 000‑00‑00</a></dd>
+              <dt>Мессенджеры</dt>
+              <dd>
+                <a href="https://t.me/" target="_blank" rel="noopener">Telegram</a> ·
+                <a href="https://wa.me/79990000000" target="_blank" rel="noopener">WhatsApp</a>
+              </dd>
+            </dl>
+            <div class="socials">
+              <a href="#" aria-label="Instagram">IG</a>
+              <a href="#" aria-label="VK">VK</a>
+              <a href="#" aria-label="Telegram">TG</a>
+              <a href="#" aria-label="YouTube">YT</a>
+            </div>
+          </div>
+
+          <div class="contacts-map" data-aos>
+            <iframe
+              title="Карта проезда"
+              src="https://yandex.ru/map-widget/v1/?ll=37.6173%2C55.7558&z=13"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 ATELIER BARBER</span>
+      <span class="footer-mid">ул. Мастеров, 12 · Москва · 10:00—22:00</span>
+      <a href="#top" class="to-top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <!-- ══ STICKY CALL BUTTON (mobile) ══ -->
+  <a class="sticky-call" href="tel:+79990000000" aria-label="Позвонить">☏</a>
+
+  <!-- ══ LIBS ══ -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
